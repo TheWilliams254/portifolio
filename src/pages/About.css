@@ -1,0 +1,25 @@
+/* About.css */
+.about {
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  /* Parallax background effect */
+.parallax {
+  background-image: url('');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
