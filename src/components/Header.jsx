@@ -6,9 +6,6 @@ import './Header.css'; // Ensure this file exists in the same folder as Header.j
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">
-        <Link to="/">My Portfolio</Link>
-      </div>
       <nav>
         <ul>
           <li><Link to="/" className="nav-link">About</Link></li>

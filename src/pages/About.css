@@ -23,3 +23,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.about-container {
+  background-image: url('../assets/images/pic.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  /* Centers the text inside the container */
+  color: white;  /* Text color for contrast */
+}
+
+.about-container h1,
+.about-container p {
+  margin: 0;  /* Optional: Remove margin for tighter control over layout */
+}
+
+

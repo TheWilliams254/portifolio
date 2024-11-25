@@ -5,13 +5,15 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-
+import LandingPage from './pages/LandingPage';
 const App = () => {
   return (
     <Router>
       <div className="App">
         <Header />
+        <LandingPage/>
         <Routes>
+          
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
